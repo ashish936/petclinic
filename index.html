@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/546d59495e.js" crossorigin="anonymous"></script>
+
+    <!--adding bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>pet clinic</title>
+</head>
+<body>
+
+    
+
+    <!-- there are 5 sections -->
+    
+    <div id="section1 " class="topSection section"> 
+        <!-- this section contains logo, contact info , opening info-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-4 top logo">
+                    <img src="./images/clinic-logo.png" alt="logo not found">
+                </div>
+                <div class="col-md-3 offset-md-1 top callUs">
+                    <i class="fas fa-headset"></i>
+                    <p>Call Us Now</p>
+                    <p>8449148421</p>
+                </div>
+                <div class="col-md-3 offset-md-1 top openHrs">
+                    <!-- add icon for opening hours| clock logo -->
+                    <i class="far fa-clock"></i>
+                    <p>Opening Hours</p>
+                    <p>Mon-sat</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- creating nav bar  -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#contact">Services</a>
+        <a href="#about">Our team</a>
+        <a href="#shop">Shop</a>
+        <a href="#shop">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+    <div id="section2" class="section">
+        <!-- this section contains two colums right column should contain a image of a dog -->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-6 section2WrittenArea">
+                    <p>Our team is filled with highly dedicated pet lovers.</p>
+                    <button>our services</button>
+                    <button>contact us</button>
+                </div>
+                <div class="col-md-5 offset-md-1 dogPictureArea">
+                    <img src="images/bulldog.png" alt="image not loaded!" class="dogImage">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="section3" class="section">
+        <!-- write something in this area -->
+        <h2>We are Animals life pet clinic provide best care center in Dehradun</h2>
+    </div>
+
+
+    <div id="section4" class="section">
+        <!-- this section again contains two colums right side should be image -->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-6 sidePanel">
+                    <h3> <i class="fab fa-centercode"></i>  Our Vision </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero totam alias minus quod unde, debitis culpa maxime hic, est excepturi sunt eveniet tempora id ullam impedit quos incidunt! Eius, cupiditate!</p>
+                    
+                    <h3><i class="fas fa-bullseye"></i>  Our Mission</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod placeat fugiat amet inventore blanditiis laborum aliquam at iure natus labore maxime, ratione, ipsam illum eligendi! Beatae perspiciatis ex eum enim.</p>
+                    <h3><i class="fas fa-heartbeat"></i>  Our Values</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quaerat. Dolorum beatae quae neque facere nulla a fugiat sequi in, iste delectus aspernatur molestias excepturi, amet cupiditate officia rerum voluptatibus?</p>
+                </div>
+                <div class="col-md-6 dogCatPicture">
+                    <h4>dog and cat picture</h4>
+                    <p>8449148421</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contact" class="contactSection">
+
+        <div class="col-md-12 text-center">
+
+            <p class="subHeading">hello this section is about me </p>
+            <h3>this is my about section</h3>
+            <a href="mailTo: bishtashish936@gmail.com" class="contactButton">GET IN TOUCH!</a>
+        
+        </div>
+
+</div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
